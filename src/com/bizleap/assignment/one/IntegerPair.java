@@ -15,7 +15,6 @@ public class IntegerPair {
         Map<Integer,Integer> integerMap = new <Integer,Integer>HashMap();
         int temp = 0;
         for (int i = 1; i < 21; i++) {
-
             temp = temp + i;
             integerMap.put(i,temp);
         }
