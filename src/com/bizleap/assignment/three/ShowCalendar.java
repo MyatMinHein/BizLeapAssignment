@@ -10,6 +10,10 @@ import java.util.Date;
  */
 public class ShowCalendar {
     public static void main(String[] args) {
+        ShowCalendar showCalendar = new ShowCalendar();
+        showCalendar.isShowCalendar();
+    }
+    public void isShowCalendar(){
         int dayOfYear = 112;
         java.util.Calendar calendar = java.util.Calendar.getInstance();
         calendar.set(java.util.Calendar.DAY_OF_YEAR, dayOfYear);

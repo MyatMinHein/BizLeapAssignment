@@ -7,6 +7,9 @@ import java.io.File;
  */
 public class DirectoryReader {
     public static void main(String a[]) {
+
+    }
+    public void isDirectoryReader(){
         File file = new File("C:/");
         File ff = new File("C:/");
         File[] files = file.listFiles();
